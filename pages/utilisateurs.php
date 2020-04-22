@@ -95,7 +95,7 @@
 									<td><?php echo $USER['ROLE'] ?></td>
 									<?php if($_SESSION['utilisateur']['ROLE']=="ADMIN") {?>
 									<td>
-											<a href="editerUtilisateur.php?id=<?php echo $USER['ID'] ?>">
+											<a href="editerUtilisateurs.php?id=<?php echo $USER['ID'] ?>">
 												<span class="glyphicon glyphicon-pencil"></span>
 											</a>
 											

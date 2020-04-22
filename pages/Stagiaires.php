@@ -154,14 +154,14 @@
 										<td>
 											<?php if($_SESSION['utilisateur']['ROLE']=="ADMIN") {?>
 												<!--  Action Editer un stagiaire -->
-												<a href="EditerStagaire.php?ID=<?php echo $STAGIAIRE['ID'] ?>">
+												<a href="editerstagiaire.php?ID=<?php echo $STAGIAIRE['ID'] ?>">
 													<span class="glyphicon glyphicon-pencil"></span>
 												</a>
 												
 												&nbsp &nbsp
 												<!--  Action Supprimer un stagiaire -->
 												<a Onclick="return confirm('Etes vous sur de vouloir supprimer le STAGIAIRE?')" 
-													href="supprimerstagaire.php?ID=<?php echo $STAGIAIRE['ID'] ?>">
+													href="supprimerstagiaire.php?ID=<?php echo $STAGIAIRE['ID'] ?>">
 													<span class="glyphicon glyphicon-trash"></span>
 												</a>
 																							
