@@ -33,11 +33,11 @@
 					
 						<div class="form-group">
 							<label for="id" class="control-label" >
-								Id=<?php echo $STAGIAIRE['ID']; ?>
+								ID = <?php echo $STAGIAIRE['Id']; ?>
 							</label>
 							<input type="hidden" name="ID" 
 									id="id" class="form-control" 
-									value="<?php echo $STAGIAIRE['ID']; ?>"/>
+									value="<?php echo $STAGIAIRE['Id']; ?>"/>
 						</div>
 						
 						<div class="form-group">
