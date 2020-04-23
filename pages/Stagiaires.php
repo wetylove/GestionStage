@@ -114,7 +114,7 @@
 								</button>
 								&nbsp&nbsp&nbsp
 								<?php if($_SESSION['utilisateur']['ROLE']=="ADMIN") {?>
-									<a class="btn btn-success" href="NouveauStagaire.php">Nouveau stagiaire</a>
+									<a class="btn btn-success" href="NouveauStagiaire.php">Nouveau stagiaire</a>
 								<?php } ?>	
 							</div>
 						</form>
