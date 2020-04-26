@@ -31,9 +31,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         
         $subject = "INITIALISATION DE MOT DE PASSE (Poste HP)";
         
-        $txt = "Votre nouveau mot de passe de gesStag est :$pwd";
+        $txt = "Votre nouveau mot de passe de GestionStage est :$pwd";
         
-        $headers = "From: GesStag" . "\r\n" . "CC: lahcenabousalih@gmail.com";
+        $headers = "From: GestionStage" . "\r\n" . "CC: wetylamerveille17@gmail.com";
         
         mail($to, $subject, $txt, $headers);
 

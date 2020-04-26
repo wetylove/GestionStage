@@ -83,7 +83,7 @@
 												
 						<input type="submit" class="btn btn-primary" value="Enregistrer"/>
 							&nbsp &nbsp	&nbsp &nbsp
-						<a href="editPwd.php">Changer le mot de passe</a>	
+						<a href="EditPwd.php">Changer le mot de passe</a>	
 					</form>
 				</div>
 			</div>
